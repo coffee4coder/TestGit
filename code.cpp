@@ -8,6 +8,7 @@ int main(){
     div = (a + b) / 2;
 
     // This is only for testing
+    // This is the change (mark it)
 
     cout << "Output: "<< div << endl;
     return 0;
