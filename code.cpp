@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int a, b, div;
+    int a, b, div, i, num = 0;
 
     cin >> a >> b;
     div = (a + b) / 2;
@@ -10,6 +10,10 @@ int main(){
     // This is only for testing
     // This is the change (mark it)
 
-    cout << "Output: "<< div << endl;
+    for(i = 1; i <= 10; i++){
+        num += i;
+    }   
+
+    cout << "Output: "<< div << num << endl;
     return 0;
 }
