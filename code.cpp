@@ -8,9 +8,9 @@ int main(){
     div = (a + b) / 2;
 
     if(div % 2 == 0){
-        cout << "Eligible" << " ";
+        cout << "Eligible" << " " << endl;
     }else{
-        cout << "Non-Eligible" << " ";
+        cout << "Non-Eligible" << " " << endl;
     }
 
     // This is only for testing
@@ -20,6 +20,6 @@ int main(){
         num += i;
     }   
 
-    cout << "Output: "<< div << num << endl;
+    cout << "Output: "<< div << " " << num << endl;
     return 0;
 }
