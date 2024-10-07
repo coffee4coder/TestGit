@@ -3,8 +3,9 @@ using namespace std;
 
 int main(){
     int a, b, div, i, num = 0;
+    string st;
 
-    cin >> a >> b;
+    cin >> a >> b >> st;
     div = (a + b) / 2;
 
     if(div % 2 == 0){
@@ -20,6 +21,6 @@ int main(){
         num += i;
     }   
 
-    cout << "Output: "<< div << " " << num << endl;
+    cout << "Output: "<< div << " " << num << st << " " << endl;
     return 0;
 }
